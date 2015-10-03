@@ -19,6 +19,25 @@ a:hover {
   color: #111;
 }
 
+.navbar ul {
+  list-style-type: none;
+}
+
+.navbar li {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 3px;
+  padding: 0 3px;
+}
+
+.navbar.left-nav {
+  float: left;
+}
+
+.navbar.right-nav {
+  float: right;
+}
+
 #top-nav {
   position: absolute;
   top: 5px;
@@ -32,8 +51,8 @@ a:hover {
 }
 
 #main {
-  background: url('imagens/google-logo.jpg') no-repeat center center;
-  background-size: 650px 350px;
+  background: url('imagens/google-logo.png') no-repeat center center;
+  background-size: 544px 184px;
   width: 800px;
   height: 439px;
   position: absolute;
@@ -76,21 +95,3 @@ a:hover {
   background-color: #F2F2F2;
 }
 
-.navbar ul {
-  list-style-type: none;
-}
-
-.navbar li {
-  display: inline-block;
-  vertical-align: top;
-  margin: 0 3px;
-  padding: 0 3px;
-}
-
-.navbar.left-nav {
-  float: left;
-}
-
-.navbar.right-nav {
-  float: right;
-}
