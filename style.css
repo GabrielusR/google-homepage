@@ -69,6 +69,7 @@ a:hover {
 #main form input[type="text"] {
   width: 500px;
   height: 30px;
+  padding: 0 3px;
 }
 
 #main form input[type="button"] {
