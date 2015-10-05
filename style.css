@@ -52,30 +52,30 @@ a:hover {
 
 #main {
   background: url('imagens/google-logo.png') no-repeat center center;
-  background-size: 544px 184px;
+  background-size: 404px 134px;
   width: 800px;
   height: 439px;
   position: absolute;
-  top: 2%;
+  top: 10%;
   left: 20%;
 }
 
 #main form {
   position: relative;
-  left: 18%;
-  top: 80%;
+  left: 12%;
+  top: 65%;
 }
 
 #main form input[type="text"] {
-  width: 500px;
-  height: 30px;
+  width: 600px;
+  height: 40px;
   padding: 0 3px;
 }
 
 #main form input[type="button"] {
   height: 30px;
   width: 150px;
-  margin: 0 50px;
+  margin: 0 73px;
   padding: 5px 10px;
   border: none;
   color: #333;
@@ -83,7 +83,8 @@ a:hover {
 
 #main form input[type="button"]:hover {
   border: 1px solid #CCC;
-  color: #111;
+  color: #000;
+  background-color: #EEE;
 }
 
 #bot-nav {
