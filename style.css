@@ -111,6 +111,7 @@ footer nav{
 
 footer nav ul li {
   display: inline-block;
+  padding: 0 10px;
 }
 
 footer nav ul {
